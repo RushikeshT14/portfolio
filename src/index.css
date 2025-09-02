@@ -7,3 +7,124 @@
         @apply bg-black text-white relative font-sans h-screen overflow-x-hidden
     }
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.SocialLink {
+    margin-top: 1.41rem;
+}
+
+.SocialLink a {
+    margin-left: 1rem;
+    padding: .5rem;
+    font-size: 1.4rem;
+    border-radius: 8px;
+    transition: all ease .43s;
+    background: rgb(210, 210, 210);
+    color: rgb(0, 0, 0);
+}
+
+.SocialLink a:hover {
+    background: #1a1a1a;
+    color: white;
+}
+
+
+/* ------------------------ABOUT------------------------- */
+.AboutContainer {
+    margin-top: 4rem;
+    width: 99vw;
+    height: 100vh;
+    justify-items: center;
+    align-items: center;
+    color: rgb(159, 164, 170);
+}
+
+.About {
+    width: 60vw;
+    height: 100%;
+    padding: 4rem 0;
+    line-height: 162%;
+    letter-spacing: .1rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.14rem;
+    font-weight: 300;
+}
+
+.About h2 {
+    color: white;
+    font-size: 3rem;
+    font-family: sans-serif;
+    margin-bottom: 2rem;
+}
+
+.About h3 {
+    font-size: 1.67rem;
+    color: white;
+    font-weight: 300;
+}
+
+.TechLogos {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 2.6rem;
+    flex-wrap: wrap;
+}
+
+.TechLogos i {
+    height: 70px;
+    width: 70px;
+    padding-top: .78rem;
+    transition: all ease .4s;
+    border: 1px solid white;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.TechLogos i:hover {
+    background: rgb(239, 235, 235);
+    color: #1a1a1a;
+}
+
+
+
+
+/* -----------------------------------MEDIA(MOBILE RESPONSIVE)---------------------- */
+@media (max-width: 440px) {
+    .MERN{
+        left: -.78rem;
+    }
+    .SocialLink a {
+        margin-left: 2rem;
+    }
+
+    .Projects {
+        margin-right: .2rem;
+        margin-left: 2rem;
+    }
+
+    .About {
+        width: 95vw;
+        text-align: center;
+        font-size: 1rem;
+    }
+    .About h2,h3{
+        font-size: 2rem;
+    }
+    .TechLogos{
+        font-size: 2.12rem;
+    }
+    .TechLogos i{
+        height: 55px;
+        width: 55px;
+        padding: .53rem;
+    }
+
+
+}

@@ -23,23 +23,23 @@ const Header = () => {
 
             <nav className="z-50 hidden md:flex items-center gap-12">
                 <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
-                    <a href="#" className="text-base bg-transparent tracking-wider transition-colors duration-500 ease-in-out hover:bg-[#1a1a1a]
+                    <a href="#Home" className="text-base bg-transparent tracking-wider transition-colors duration-500 ease-in-out hover:bg-[#1a1a1a]
                      px-4 py-[10px] rounded-[10px]">HOME</a>
                 </div>
                 <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-                    <a href="#" className="text-base tracking-wider transition-colors duration-300 ease-in-out hover:bg-[#1a1a1a] px-4 py-[10px] rounded-[10px]">ABOUT</a>
+                    <a href="#About" className="text-base tracking-wider transition-colors duration-300 ease-in-out hover:bg-[#1a1a1a] px-4 py-[10px] rounded-[10px]">ABOUT</a>
                 </div>
                 <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000">
-                    <a href="#" className="text-base tracking-wider transition-colors duration-300 ease-in-out hover:bg-[#1a1a1a] px-4 py-[10px] rounded-[10px]">PROJECTS</a>
+                    <a href="#Projects" className="text-base tracking-wider transition-colors duration-300 ease-in-out hover:bg-[#1a1a1a] px-4 py-[10px] rounded-[10px]">PROJECTS</a>
                 </div>
                 <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2500">
-                    <a href="#" className="text-base tracking-wider transition-colors duration-300 ease-in-out hover:bg-[#1a1a1a] px-4 py-[10px] rounded-[10px]">CONTACTS</a>
+                    <a href="#Contacts" className="text-base tracking-wider transition-colors duration-300 ease-in-out hover:bg-[#1a1a1a] px-4 py-[10px] rounded-[10px]">CONTACTS</a>
 
                 </div>
             </nav>
 
-            <button className="hidden md:block bg-[#a7a7a7] text-black py-3 px-8 rounded-full border-none font-medium transition-all duration-500 hover:bg-white cursor-pointer z-50">
-                SIGN IN
+            <button className="hidden md:block bg-[#a7a7a7] text-black py-3 px-8 rounded-full border-none font-medium transition-all duration-500 hover:bg-white cursor-cursor z-50">
+                <i class="fa-solid fa-laptop-code"></i>
             </button>
 
             {/* mobile screen responsive  */}
@@ -53,7 +53,7 @@ const Header = () => {
             <div id="mobileMenu" className=" hidden fixed top-16 bottom-0 right-0 left-0 p-5 md:hidden z-40 bg-black bg-opacity-70">
                 <nav className="flex flex-col gap-6 items-center ">
 
-                    <a href="#" className="text-base tracking-wider transition-colors hover:text-gray-300">HOME</a>
+                    <a href="#Home" className="text-base tracking-wider transition-colors hover:text-gray-300">HOME</a>
 
                     <a href="#" className="text-base tracking-wider transition-colors hover:text-gray-300">ABOUT</a>
 
