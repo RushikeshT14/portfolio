@@ -55,11 +55,11 @@ const Header = () => {
 
                     <a href="#Home" className="text-base tracking-wider transition-colors hover:text-gray-300">HOME</a>
 
-                    <a href="#" className="text-base tracking-wider transition-colors hover:text-gray-300">ABOUT</a>
+                    <a href="#About" className="text-base tracking-wider transition-colors hover:text-gray-300">ABOUT</a>
 
-                    <a href="#" className="text-base tracking-wider transition-colors hover:text-gray-300">PROJECTS</a>
+                    <a href="#Projects" className="text-base tracking-wider transition-colors hover:text-gray-300">PROJECTS</a>
 
-                    <a href="#" className="text-base tracking-wider transition-colors hover:text-gray-300">CONTACTS</a>
+                    <a href="#Contacts" className="text-base tracking-wider transition-colors hover:text-gray-300">CONTACTS</a>
                 </nav>
             </div>
 

@@ -35,7 +35,7 @@ const Hero = () => {
                 </p>
 
                 <div className="flex gap-4 mt-12">
-                    <a href="#Projects" className="Projects border border-[#2a2a2a] py-2 sm:py-3 px-4 sm:px-5 rounded-full sm:text-lg  text-sm font-semibold tracking-wider transition-all duration-300 hover:bg-[#1a1a1a] ">
+                    <a href="#Projects" className=" border border-[#2a2a2a] py-2 sm:py-3 px-4 sm:px-5 rounded-full sm:text-lg  text-sm font-semibold tracking-wider transition-all duration-300 hover:bg-[#1a1a1a] ">
                         Projects <i className='bx bx-link'></i>
                     </a>
 
@@ -55,10 +55,10 @@ const Hero = () => {
 
             {/* Right side */}
 
-            <Spline className="absolute lg:top-0 top-[-20%] bottom-0 lg:left-[25%] sm:left-[-2%] h-full lg:mt-[-2%]" scene="https://prod.spline.design/uiY40MbILwTC8wLB/scene.splinecode" data-aos="fade-zoom-in"
+            {/* <Spline className="absolute lg:top-0 top-[-20%] bottom-0 lg:left-[25%] sm:left-[-2%] h-full lg:mt-[-2%]" scene="https://prod.spline.design/uiY40MbILwTC8wLB/scene.splinecode" data-aos="fade-zoom-in"
                 data-aos-easing="ease-in-back"
                 data-aos-delay="300"
-                data-aos-offset="0" data-aos-duration="3000" />
+                data-aos-offset="0" data-aos-duration="3000" /> */}
 
 
         </main>
