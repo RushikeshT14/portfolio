@@ -1,6 +1,6 @@
 
 import "boxicons/css/boxicons.min.css";
-
+import "./NavAnimation.css"
 const Header = () => {
     //For mobile Menu
     const toggleMobileMenu = () => {
@@ -14,7 +14,7 @@ const Header = () => {
     }
 
     return (
-        <header className="flex justify-between items-center py-4 px-4 lg:px-20">
+        <header className="NavBar flex justify-between items-center py-4 px-4 lg:px-20">
             <h1 data-aos="fade-down"
                 data-aos-easing="linear"
                 data-aos-duration="800" className="text-3xl md:text-4xl font-light m-0">
@@ -38,21 +38,19 @@ const Header = () => {
                 </div>
             </nav>
 
-            <button className="hidden md:block bg-[#a7a7a7] text-black py-3 px-8 rounded-full border-none font-medium transition-all duration-500 hover:bg-white cursor-cursor z-50">
-                <i class="fa-solid fa-laptop-code"></i>
+            <button className="hidden md:block z-50">
+                <div class="devil">
+                    <div class="aura"></div>
+                </div>
             </button>
 
-            {/* mobile screen responsive  */}
 
             <button className="md:hidden text-3xl p-2 z-50 mt-2" onClick={toggleMobileMenu}>
                 <i className="bx bx-menu"></i>
             </button>
 
-            {/* mobile menu  */}
-
-            <div id="mobileMenu" className=" hidden fixed top-16 bottom-0 right-0 left-0 p-5 md:hidden z-40 bg-black bg-opacity-70">
-                <nav className="flex flex-col gap-6 items-center ">
-
+            <div id="mobileMenu" className=" hidden fixed top-20 bottom-0 right-0 left-0 md:hidden z-40 bg-opacity-70">
+                <nav className="flex flex-col gap-6 items-center z-100 bg-[#000000cf] py-8">
                     <a href="#Home" className="text-base tracking-wider transition-colors hover:text-gray-300">HOME</a>
 
                     <a href="#About" className="text-base tracking-wider transition-colors hover:text-gray-300">ABOUT</a>
@@ -62,8 +60,6 @@ const Header = () => {
                     <a href="#Contacts" className="text-base tracking-wider transition-colors hover:text-gray-300">CONTACTS</a>
                 </nav>
             </div>
-
-
         </header>
     )
 }

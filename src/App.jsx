@@ -6,7 +6,8 @@ import Header from "./components/Header"
 import Hero from "./components/Hero"
 import About from '../src/components/About.jsx';
 import Projects from './components/Projects.jsx'
-
+import Contacts from './components/Contacts.jsx';
+import Footer from './components/Footer.jsx';
 
 
 export default function App() {
@@ -28,6 +29,8 @@ export default function App() {
       <Hero />
       <About />
       <Projects />
+      <Contacts />
+      <Footer />
 
     </main>
 

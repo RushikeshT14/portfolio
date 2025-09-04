@@ -1,0 +1,34 @@
+.devil {
+      position: relative;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: radial-gradient(circle, #ff0000, #660000);
+      box-shadow: 0 0 30px #ff0000, 0 0 60px #990000;
+      animation: pulse 1.5s infinite alternate;
+    }
+
+    /* Rotating Aura */
+    .aura {
+      position: absolute;
+      bottom: -5px;
+      left: -6px;
+      width: 50px;
+      height: 50px;
+      border: 3px solid transparent;
+      border-top: 3px solid #ff0000;
+      border-right: 3px solid #ff3300;
+      border-radius: 50%;
+      animation: spin 2s linear infinite;
+      filter: blur(2px);
+    }
+
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); box-shadow: 0 0 20px #ff0000, 0 0 40px #990000; }
+      100% { transform: scale(1.15); box-shadow: 0 0 40px #ff3300, 0 0 70px #cc0000; }
+    }
