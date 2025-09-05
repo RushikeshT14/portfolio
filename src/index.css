@@ -110,7 +110,6 @@ html {
 .TechCon:hover {
     transform: translateY(-1rem) scale(1.05);
     box-shadow: 0 8px 30px rgba(0, 191, 255, 0.5);
-    /* accent glow */
     border-color: #00BFFF;
 }
 
@@ -175,10 +174,9 @@ html {
     width: 100%;
     height: 100%;
     padding: 1rem;
-    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-    transition: all ease .5s;
+    background: rgba(255, 255, 255, 0.066);
+    transition: all ease .85s;
 }
-
 .ProjectCard a {
     font-size: 1.8rem;
     font-family: poppins;
@@ -225,8 +223,10 @@ html {
 }
 
 .ProjectCard:hover {
-    transform: translateY(-1rem) scale(1.025);
-    box-shadow: 0 0 1rem #FFD700;
+    transform: translateY(-1rem) scale(1.015);
+    /* background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); */
+    background-color: rgba(0, 255, 195, 0.155);
+
 }
 
 /* -----------------------------------CONTACTS-------------------------------- */

@@ -46,10 +46,10 @@ const Hero = () => {
             </div>
 
 
-            {/* <Spline className="absolute lg:top-0 top-[-20%] bottom-0 lg:left-[25%] sm:left-[-2%] h-full lg:mt-[-2%]" scene="https://prod.spline.design/uiY40MbILwTC8wLB/scene.splinecode" data-aos="fade-zoom-in"
+            <Spline className="absolute lg:top-0 top-[-20%] bottom-0 lg:left-[25%] sm:left-[-2%] h-full lg:mt-[-2%]" scene="https://prod.spline.design/uiY40MbILwTC8wLB/scene.splinecode" data-aos="fade-zoom-in"
                 data-aos-easing="ease-in-back"
                 data-aos-delay="300"
-                data-aos-offset="0" data-aos-duration="3000" /> */}
+                data-aos-offset="0" data-aos-duration="3000" />
         </main>
     )
 }
