@@ -31,7 +31,7 @@ const Hero = () => {
                         Projects <i className='bx bx-link'></i>
                     </a>
 
-                    <a href="#" className="HeroLink pointer-events-none border border-[#2a2a2a] py-2 sm:py-3 px-8 sm:px-10 rounded-full sm:text-lg  text-sm font-semibold tracking-wider transition-all duration-1000 hover:bg-[#1a1a1a] bg-gray-300 text-black hover:text-white">
+                    <a href="RUSHIKESH M TODKARI RESUME.pdf" download className="HeroLink border border-[#2a2a2a] py-2 sm:py-3 px-8 sm:px-10 rounded-full sm:text-lg  text-sm font-semibold tracking-wider transition-all duration-1000 hover:bg-[#1a1a1a] bg-gray-300 text-black hover:text-white">
                         Resume  <i class="fa-solid fa-arrow-down"></i>
                     </a>
                 </div>
