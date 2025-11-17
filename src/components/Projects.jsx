@@ -9,13 +9,16 @@ function Projects() {
                         data-aos-offset="300"
                         data-aos-easing="ease-in-sine">
                         <div className="ProjectCard">
-                            <a href="#" target="_blank">TradeX  &#8592; </a>
-                            <p>TradeX is a full-stack stock &amp; trading platform inspired by Zerodha. It enables users to buy, sell, and track assets in real time with an intuitive and responsive interface. The platform is built with a secure authentication system, ensuring safe user login, signup, and portfolio management.</p>
+                            <a href="https://zerodhahome.onrender.com" target="_blank">TradeX  &#8592; </a>
+                            <p>TradeX is a modern full-stack trading platform built with a sleek, Zerodha-inspired UI for a smooth trading experience. Features real-time market data, live price updates, and interactive charts for informed decision-making.
+Built with a robust backend API, ensuring fast, reliable trade execution and data handling.Includes portfolio tracking, watchlists, and responsive dashboard components.Optimized for desktop usage, with mobile view still under development.Designed as an end-to-end full-stack project showcasing UI/UX, backend logic, and real-time integrations.</p>
                             <div>
                                 <i class="fa-brands fa-react"></i>
-                                <i class="fa-brands fa-css"></i>
+                                <i class="fa-solid fa-database"></i>
                                 <i class="fa-brands fa-square-js"></i>
+                                <i class="fa-brands fa-css"></i>
                                 <i class="fa-brands fa-html5"></i>
+
                             </div>
                         </div>
                     </div>

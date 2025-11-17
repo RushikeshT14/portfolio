@@ -1,4 +1,6 @@
 import { useState } from "react";
+import Lottie from "lottie-react";
+import ManAnimation from "../assets/Mr Detective.json";
 
 
 const Contacts = () => {
@@ -47,10 +49,11 @@ const Contacts = () => {
                 data-aos-easing="ease-in-sine"
                 data-aos-delay="300" >
                 <div className="contact-illusion">
-                    <div className="orb">
-                        <div className="shine"></div>
-                        <div className="shadow"></div>
-                    </div>
+                    <Lottie className="ManAnimation" animationData={ManAnimation} loop={true} />
+                    {/* <div className="orb"> */}
+                        {/* <div className="shine"></div> */}
+                        {/* <div className="shadow"></div> */}
+                    {/* </div> */}
                 </div>
             </div>
             <div data-aos="fade-left"

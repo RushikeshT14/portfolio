@@ -1,6 +1,9 @@
 
 import "boxicons/css/boxicons.min.css";
 import "./NavAnimation.css"
+import Lottie  from "lottie-react";
+import ManAnimation from "../assets/Mr Detective.json";
+import RocketAnimation from"../assets/Japan rocket Lottie JSON animation.json";
 const Header = () => {
     //For mobile Menu
     const toggleMobileMenu = () => {
@@ -40,7 +43,7 @@ const Header = () => {
 
             <button className="hidden md:block z-50">
                 <div class="devil">
-                    <div class="aura"></div>
+                    <Lottie animationData={RocketAnimation} loop={true} speed={.6} />
                 </div>
             </button>
 

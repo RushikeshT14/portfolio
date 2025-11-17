@@ -314,18 +314,21 @@ html {
 
 /* Right Illusion */
 .contact-illusion {
-    margin-top: 8rem;
-    margin-left: -15rem;
+    margin-top: 9rem;
+    margin-left: -20rem;
     flex: 1;
     min-width: 280px;
-    height: 350px;
+    height: 420px;
     display: flex;
     justify-content: center;
     align-items: center;
     perspective: 1000px;
 }
+.ManAnimation{
+    height: 100%;
+}
 
-/* Orb Illusion */
+/* Orb Illusion
 .orb {
     position: relative;
     width: 220px;
@@ -339,7 +342,7 @@ html {
     transform-style: preserve-3d;
 }
 
-/* Shine reflection */
+Shine reflection
 .orb .shine {
     position: absolute;
     top: 25px;
@@ -351,8 +354,8 @@ html {
     filter: blur(3px);
 }
 
-/* Depth shadow */
-.orb .shadow {
+Depth shadow */
+/* .orb .shadow {
     position: absolute;
     bottom: -40px;
     left: 50%;
@@ -362,7 +365,7 @@ html {
     background: rgba(0, 0, 0, 0.3);
     transform: translateX(-50%);
     filter: blur(8px);
-}
+} */
 
 /* Rotation illusion */
 @keyframes spin {
@@ -624,6 +627,9 @@ html {
         flex-direction: column;
         gap: 0.5rem;
         text-align: center;
+    }
+    .CodingAnimation{
+        height: 260px;
     }
 
 }
